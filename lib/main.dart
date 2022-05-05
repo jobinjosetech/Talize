@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
     super.initState();
     checkAuth();
     Future.delayed(
-      const Duration(milliseconds: 2000),
+      const Duration(milliseconds: 4500),
       () => {
         setState(
           () {
